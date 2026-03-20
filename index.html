@@ -114,6 +114,12 @@
       box-shadow: 0 0 30px rgba(0,0,0,0.7);
     }
 
+    /* версия */
+    #versionNumber {
+      top: 20px;
+      right: 20px;
+    }
+
     /* выход */
     #unifiedExitBtn {
       position: fixed;
@@ -141,7 +147,6 @@
 </head>
 
 <body>
-  <!-- Служебные элементы -->
   <button id="unifiedExitBtn">Выход в меню</button>
   
   <div id="gerbContainer" style="position: absolute; top: 10px; left: 10px; z-index: 1000;">
@@ -152,8 +157,10 @@
   <div id="mainContent">
     <h1>Сфера-УИС</h1>
     <button id="utkBtn">УТК</button>
+    <div id="versionNumber"> Версия: 1.0.1 <p>Дата последнего обновления: 20.03.2026</p></div>
   </div>
 
+  <!-- Учебно-тренировочный комплекс -->
   <div id="utk">
     <div class="sidebar-container">
       <h3>Навигация УТК</h3>
